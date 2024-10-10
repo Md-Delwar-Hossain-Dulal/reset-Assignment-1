@@ -21,6 +21,34 @@
   font-family: "Azeret Mono";
   cursor: pointer;
 }
+.bg-div>button {
+  padding: 21px 24px 21px 24px;
+  border-radius: 8px;
+
+  background: rgb(13, 19, 33);
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+}
+
+/* button for Why Web Development section */
+.button {
+  padding: 10px 20px;
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  text-align: center;
+  box-sizing: border-box;
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+  cursor: pointer;
+  margin-top: 35px;
+}
 
 .flex {
   display: flex;
@@ -82,44 +110,30 @@
   margin: 20px 0 25px;
 }
 
-.bg-div>button {
-  padding: 21px 24px 21px 24px;
-  border-radius: 8px;
 
-  background: rgb(13, 19, 33);
-  color: rgb(255, 255, 255);
-  font-size: 20px;
-  font-weight: 600;
-  line-height: 23px;
-  text-align: center;
-  cursor: pointer;
-  border: none;
-}
 
 
 .web-text {
-  margin: 0 45px;
-  border: 2px solid green;
+  /* margin: 0 45px; */
   text-align: center;
+  border: 2px solid #360da5;
 }
 
 .web-text>h1 {
   color: rgb(13, 19, 33);
-  font-size: 32px;
+  font-size: 35px;
   font-weight: 800;
   line-height: 37px;
   text-align: center;
   margin-bottom: 24px;
 }
 
-.web-text>p {
+.intro-text {
   color: rgb(13, 19, 33);
-  font-family: Azeret Mono;
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
-  letter-spacing: 0%;
-  
+  margin-bottom: 48px;
 }
 
 .web-dev-section {
@@ -129,4 +143,47 @@
   text-align: center;
   border: 2px dotted red;
   padding: 80PX 97px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.card {
+  display: flex;
+  padding: 48px 250px;
+  flex-direction: row-reverse;
+  color: #494c53;
+  border: 2px dotted rgb(34, 167, 52);
+  gap: 250px;
+  justify-content: space-between;
+  /* background-color: #fcfcfd; */
+  /* background-color: rgb(13, 99, 99); */
+  /* margin: 50px; */
+  text-align: left;
+}
+
+.box-1>h2 {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  margin-bottom: 10px;
+}
+
+.box-1>p {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  opacity: 0.7;
+}
+
+.card-icon {
+  width: 200px;
+  height: 200px;
+  /* margin-bottom: 20px; */
 }
