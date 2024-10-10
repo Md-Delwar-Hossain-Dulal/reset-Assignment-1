@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0;
+  font-family: Azeret Mono;
+}
+
+.but {
+  margin: 35px 140px;
+  right: 150px;
+  padding: 15px 19px;
+  box-sizing: border-box;
+  border: 1px solid rgb(13, 19, 33);
+  border-radius: 8px;
+  opacity: 0.8;
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 20px;
+  font-family: "Azeret Mono";
+  cursor: pointer;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Azeret Mono";
+}
+
+.flex>h1 {
+  margin: 50px 0px 0px 140px;
+  color: rgb(13, 19, 33);
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 33px;
+  letter-spacing: 0%;
+  text-align: left;
+
+}
+
+.bg-div {
+  width: auto;
+  height: 570px;
+  border: 2px dashed #c5c5c5;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.bg {
+  background-image: url("./assets/Hero-bg.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-img {
+  width: 200px;
+  height: 200px;
+  margin: 25px 0 0;
+}
+
+.bg-div>h1 {
+  color: rgb(13, 19, 33);
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 68px;
+  font-family: Azeret Mono;
+  text-align: center;
+}
+
+.bg-div>p {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  font-family: Azeret Mono;
+  text-align: center;
+  margin: 20px 0 25px;
+}
+
+.bg-div>button {
+  padding: 21px 24px 21px 24px;
+  border-radius: 8px;
+
+  background: rgb(13, 19, 33);
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+}
+
+
+.web-text {
+  margin: 0 45px;
+  border: 2px solid green;
+  text-align: center;
+}
+
+.web-text>h1 {
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.web-text>p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  
+}
+
+.web-dev-section {
+  background-color: #fafafb;
+  max-width: 70%;
+  margin: 70px auto;
+  text-align: center;
+  border: 2px dotted red;
+  padding: 80PX 97px;
+}
