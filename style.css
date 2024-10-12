@@ -5,7 +5,7 @@
   padding: 0;
   font-family: Azeret Mono;
 }
-
+/* >>>>>>>>>>>>>>>>>>>>> All button here <<<<<<<<<<<<<<<<<<<<<<<< */
 .but {
   margin: 35px 140px;
   right: 150px;
@@ -21,7 +21,6 @@
   font-family: "Azeret Mono";
   cursor: pointer;
 }
-
 .bg-div>button {
   padding: 21px 24px 21px 24px;
   border-radius: 8px;
@@ -52,13 +51,13 @@
 }
 
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<      start nav section       >>>>>>>>>>>>>>>>>>>>>>>>>> */
-.flex {
+.nav {
   display: flex;
   justify-content: space-between;
   font-family: "Azeret Mono";
 }
 
-.flex>h1 {
+.nav>h1 {
   margin: 50px 0px 0px 140px;
   color: rgb(13, 19, 33);
   font-size: 28px;
@@ -143,7 +142,7 @@
   margin-bottom: 48px;
 }
 
-/*>>>>>>>>>>>>>>>>>>>>>>>>>>>> photo ::part <<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>> web-dev-section & card-container <<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
 
 
 .card-container {
@@ -352,15 +351,12 @@
   width: 70%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url('./assets/handshake.jpg');
-
-  /* background-repeat: no-repeat; */
   margin: 20px auto 80px;
   background-size: cover;
   background-position: center;
   border-radius: 16px;
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
   justify-content: center;
   text-align: center;
   gap: 20px;
