@@ -123,7 +123,6 @@
 }
 
 .web-text {
-  /* margin-top: 40px; */
   padding-top: 80px;
   text-align: center;
 }
@@ -228,7 +227,6 @@
 .YouTube-Section {
   max-width: 70%;
   height: 785px;
-  border: 3px dashed red;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -239,7 +237,6 @@
 }
 
 .YouTube-text>h1 {
-  /* text-align: center; */
   color: rgb(13, 19, 33);
   font-size: 32px;
   font-weight: 800;
@@ -253,7 +250,6 @@
   font-weight: 400;
   line-height: 26px;
   letter-spacing: 0%;
-  /* text-align: center; */
   margin-top: 15px;
 }
 
@@ -271,7 +267,6 @@
 .Target-div {
   max-width: 70%;
   height: 512px;
-  border: 2px dashed rgb(207, 6, 6);
   margin: 80px auto 0;
 }
 
@@ -300,34 +295,27 @@
   display: flex;
   gap: 40px;
   margin-top: 50px;
-  /* justify-content: space-between; */
 }
 
 .Target-child {
-  border: 1px solid red;
   border-radius: 16px;
   background: rgba(255, 76, 30, 0.05);
   width: 33.33%;
-  /* width: 26%; */
   padding: 40px;
 }
 
 
 .Target-child-2 {
-  border: 1px solid red;
   border-radius: 16px;
   background: rgba(0, 76, 232, 0.05);
   width: 33.33%;
-  /* width: 26%; */
   padding: 40px;
 }
 
 .Target-child-3 {
-  border: 1px solid red;
   border-radius: 16px;
   background: rgba(255, 223, 0, 0.05);
   width: 33.33%;
-  /* width: 26%; */
   padding: 40px;
 }
 
@@ -414,4 +402,40 @@
   font-weight: 600;
   line-height: 25px;
   text-align: center;
+}
+
+/* ..............................Footer..................... */
+.footer {
+  height: 100px;
+  width: 100%;
+
+  background-color: #f7f7f8;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-plus {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  margin:auto;
+  padding-top: 30px;
+}
+
+.footer-text {
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+}
+
+.social-links img {
+  width: 35px;
+  /* margin: 0 10px; */
+  cursor: pointer;
+}
+
+
+.social-links img:hover {
+  opacity: 0.7;
 }
